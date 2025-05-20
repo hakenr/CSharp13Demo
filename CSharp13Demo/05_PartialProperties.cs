@@ -19,6 +19,7 @@ public partial class Demo
 	private string _propertyValue;
 }
 
+// mostly used for generated code in practice, such as regexes
 public partial class MyRegExs
 {
 	[GeneratedRegex(".*")]

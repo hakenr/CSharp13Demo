@@ -10,10 +10,13 @@ public class Demo
 	public static void DoSomething3(params Span<int> values) { }
 	public static void DoSomething4(params IEnumerable<int> values) { }
 
-	// calling side - same compiler logic as collection expressions
+	
 	public static void CallDoSomething()
 	{
 		DoSomething4(1, 2, 3);
+
+		// calling side - same compiler logic as collection expressions
+		DoSomething4([1, 2, 3]);
 	}
 }
 
