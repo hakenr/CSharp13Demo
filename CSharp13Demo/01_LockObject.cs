@@ -13,7 +13,7 @@ public static class Demo
 		}
 
 
-		// new lock pattern
+		// new optimized Lock class (EnterScope + Dispose)
 		using (_lockNew.EnterScope())
 		{
 			Console.WriteLine("Locked");
