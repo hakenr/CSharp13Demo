@@ -6,7 +6,6 @@
 		<LangVersion>13.0</LangVersion>
 		<EnablePreviewFeatures>True</EnablePreviewFeatures>
 		<ImplicitUsings>enable</ImplicitUsings>
-		<Nullable>enable</Nullable>
 	</PropertyGroup>
 
 </Project>
